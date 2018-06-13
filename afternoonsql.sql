@@ -105,14 +105,28 @@ select * from artist where name like 'Black%';
 select * from artist where name like '%black%';
 -- TABLE-EMPLOYEE
 -- Question 1
+select firstname, lastname from employee where city = 'Calgary'
 -- Question 2
+select FirstName, LastName, Max(BirthDate) from Employee;
 -- Question 3
+select FirstName, LastName, Min(BirthDate) from Employee;
 -- Question 4
+select * from employee where ReportsTo = 2;
 -- Question 5
+select count(*) from employee where city = "Lethbridge";
 -- TABLE-INVOICE
 -- Question 1
+
 -- Question 2
+
 -- Question 3
+
 -- Question 4
+
 -- Question 5
 
+-- Question 6
+
+-- Question 7
+
+-- Question 8
