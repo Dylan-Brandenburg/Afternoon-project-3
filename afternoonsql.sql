@@ -16,5 +16,16 @@ Values
     ('Erich', 29, 180, 'Dallas', "Yellow"),
     ('Ashlynn', 24 , 160, 'Plano', "purple")
 -- question 3
-    SELECT * FROM Person ORDER BY Height DESC;
+SELECT *
+FROM Person
+ORDER BY Height DESC;
+-- Question 4
+select *
+from person
+order by Height ASC
 
+-- Question 5
+ select * from person order by age desc
+-- Question 6
+ select * from person where age > 20
+-- Question 7
