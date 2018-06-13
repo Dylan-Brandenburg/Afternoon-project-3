@@ -94,11 +94,15 @@ select sum(productprice * quantity) from orders;
 select sum(productprice * quantity) from orders where personID = 0;
 -- TABLE-ARTIST
 -- Question 1
+insert into artist (name) values ('Ed Sheeran'),('Zedd'),('Marshmello');
 -- Question 2
+select * from Artist order by name Desc Limit 10;
 -- Question 3
+select * from Artist order by name asc limit 10;
 -- Question 4
+select * from artist where name like 'Black%';
 -- Question 5
-
+select * from artist where name like '%black%';
 -- TABLE-EMPLOYEE
 -- Question 1
 -- Question 2
