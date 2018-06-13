@@ -29,3 +29,4 @@ order by Height ASC
 -- Question 6
  select * from person where age > 20
 -- Question 7
+  select * from person where age = 18 
