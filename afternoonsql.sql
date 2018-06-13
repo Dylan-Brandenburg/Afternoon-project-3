@@ -116,17 +116,18 @@ select * from employee where ReportsTo = 2;
 select count(*) from employee where city = "Lethbridge";
 -- TABLE-INVOICE
 -- Question 1
-
+select count(*) from Invoice where BillingCountry = "USA";
 -- Question 2
-
+select max(total) from invoice;
 -- Question 3
-
+select min(total) from invoice;
 -- Question 4
-
+select * from Invoice where Total > 5;
 -- Question 5
-
+select count(*) from invoice where total < 5;
 -- Question 6
-
+ select count(*) from invoice where BillingState in ('CA','TX','AZ')
 -- Question 7
-
+select avg(total) form invoice;
 -- Question 8
+select sum(total) from invoice;
