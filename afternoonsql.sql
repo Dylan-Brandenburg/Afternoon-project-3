@@ -69,7 +69,46 @@ where favoritecolor IN ('yellow', 'purple');
 
 -- TABLE-ORDERS
 -- Question 1
+create table Orders (
+  personID integer,
+  ProductName string, 
+  ProductPrice float, 
+  Quantity integer
+  )
+--   Question 2
+insert into orders ( PersonID, ProductName, ProductPrice, Quantity ) 
+values 
+(0, "product", 12.50,2),
+(1, "cheese", 2.25, 1),
+(2, "milk", 3.50, 2),
+(3, "lunchable", 2.63, 4),
+(4, "steak", 8.94, 4),
+(5, "bread", 4.75, 4)
+-- Question 3
+select * from orders
+-- Question 4
+select sum(quantity) from orders;
+-- Question 5
+select sum(productprice * quantity) from orders;
+-- Question 6
+select sum(productprice * quantity) from orders where personID = 0;
 -- TABLE-ARTIST
+-- Question 1
+-- Question 2
+-- Question 3
+-- Question 4
+-- Question 5
+
 -- TABLE-EMPLOYEE
+-- Question 1
+-- Question 2
+-- Question 3
+-- Question 4
+-- Question 5
 -- TABLE-INVOICE
+-- Question 1
+-- Question 2
+-- Question 3
+-- Question 4
+-- Question 5
 
