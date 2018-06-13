@@ -15,3 +15,6 @@ Values
     ('Leslie', 27, 150, "Dallas", "Pink"),
     ('Erich', 29, 180, 'Dallas', "Yellow"),
     ('Ashlynn', 24 , 160, 'Plano', "purple")
+-- question 3
+    SELECT * FROM Person ORDER BY Height DESC;
+
