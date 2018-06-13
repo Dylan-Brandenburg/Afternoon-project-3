@@ -1,3 +1,5 @@
+-- TABLE-PEOPLE
+
 create table person (
   ID integer primary key autoincrement,
   Name varChar
@@ -23,10 +25,51 @@ ORDER BY Height DESC;
 select *
 from person
 order by Height ASC
-
 -- Question 5
- select * from person order by age desc
+select *
+from person
+order by age desc
 -- Question 6
- select * from person where age > 20
+select *
+from person
+where age > 20
 -- Question 7
-  select * from person where age = 18 
+select *
+from person
+where age = 18
+-- Question 8
+select *
+from person
+where age < 20 or age > 30
+-- Question 9
+select *
+from person
+where age != 27
+-- Question 10
+select *
+from person
+where favoritecolor != "red"
+-- Question 11
+select *
+from person
+where favoritecolor != "red" and favoritecolor != "blue"
+-- Question 12
+select *
+from person
+where favoritecolor = 'orange' or favoritecolor = 'green'
+-- Question 13
+select *
+from person
+where favoritecolor in ('orange', 'green', 'blue')
+-- Question 14
+select *
+from person
+where favoritecolor IN ('yellow', 'purple');
+
+
+-- TABLE-ORDERS
+-- Question 1
+-- TABLE-ARTIST
+-- TABLE-EMPLOYEE
+-- TABLE-INVOICE
+
